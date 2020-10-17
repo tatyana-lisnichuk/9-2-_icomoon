@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?di6179");
+  src: url("fonts/icomoon.eot?di6179#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?di6179") format("truetype"),
+    url("fonts/icomoon.woff?di6179") format("woff"),
+    url("fonts/icomoon.svg?di6179#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 30px;
+  color: #fadd94;
+}
+.icon-image:before {
+  content: "\e90d";
+}
+.icon-font-size:before {
+  content: "\ea61";
+}
+.icon-bold:before {
+  content: "\ea62";
+}
+.icon-underline:before {
+  content: "\ea63";
+}
+.icon-italic:before {
+  content: "\ea64";
+}
+.icon-text-color:before {
+  content: "\ea6d";
+}
+.icon-paragraph-left:before {
+  content: "\ea77";
+}
+.icon-paragraph-center:before {
+  content: "\ea78";
+}
+.icon-paragraph-right:before {
+  content: "\ea79";
+}
+.icon-paragraph-justify:before {
+  content: "\ea7a";
+}
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("fonts/proxima_nova_r.ttf");
+}
+@font-face {
+  font-family: "Futura PT Heavy";
+  src: url("fonts/ofont.ru_Futura\ PT.ttf");
+}
+.main_container {
+  background-color: #464f54;
+  max-width: 1200px;
+  /* min-height: 900px; */
+  margin: auto;
+  padding: 45px 70px 0px 70px;
+}
+.title_container {
+  float: right;
+  background-color: #000000;
+  width: 73%;
+  padding: 50px 0 50px 60px;
+  margin-top: -11%;
+  margin-right: -18.5%;
+}
+.title {
+  color: #777777;
+  text-transform: uppercase;
+  font-family: "Proxima Nova Rg";
+  letter-spacing: 7px;
+  font-size: 15px;
+}
+.title_name {
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+  color: white;
+  font-size: 48px;
+  letter-spacing: 4px;
+}
+.cursor {
+  margin: -5px;
+}
+.line {
+  border-bottom: #303030 solid 3px;
+  padding-top: 20px;
+}
+.icon_container {
+  display: flex;
+  float: right;
+  background-color: #f6bc2c;
+  padding: 20px 40px;
+  margin-right: -18.7%;
+  flex-wrap: wrap;
+  /* width: 68%; */
+}
+.icon {
+  padding-right: 30px;
+}
+.icon:hover {
+  color: white;
+}
+article {
+  background-color: white;
+  margin-top: 10%;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+.autor {
+  text-transform: uppercase;
+  font-family: "Proxima Nova Rg";
+  color: #b5b5b5;
+  font-size: 20px;
+  /* float: left; */
+}
+header {
+  font-family: "Futura PT Heavy";
+  font-size: 78px;
+  text-transform: uppercase;
+  /* float: left; */
+}
+header + p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #8f8f8f;
+  font-style: italic;
+  margin-top: 0px;
+  /* float: left; */
+}
+.article_text {
+  padding-top: 200px;
+  border-left: #e8eced solid 2px;
+  padding-left: 5%;
+}
+.text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 27px;
+  text-align: justify;
+}
